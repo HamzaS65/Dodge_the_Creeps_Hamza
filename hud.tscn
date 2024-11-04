@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://co1wppt8tu76l"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_right = 484.0
+offset_bottom = 721.0
+theme_override_font_sizes/font_size = 64
+text = "0
+
+
+
+Dodge the
+ Creeps!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StartButton" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Message" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="MessageTimer" type="Timer" parent="."]
